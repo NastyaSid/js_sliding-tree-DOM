@@ -1,0 +1,2 @@
+document.querySelectorAll("li").forEach(function(e){var t=document.createElement("span");t.textContent=e.firstChild.textContent.trim(),e.firstChild.textContent="",e.prepend(t)}),document.querySelector(".tree").addEventListener("click",function(e){var t=e.target.closest("li");if("UL"===t.lastElementChild.tagName){var n=t.querySelector("ul");n.hidden=!n.hidden}});
+//# sourceMappingURL=index.bca23702.js.map
